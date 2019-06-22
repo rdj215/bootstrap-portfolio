@@ -5,18 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/743b360502.js"></script>
     <title>Document</title>
 </head>
-<body>
+<body style="background-color:whitesmoke; box-shadow: orange">
         <nav class="navbar navbar-expand-sm bg-dark">
-            <h1 style='color:white;'>Ryan Jamison</h1>
+            <i class="fab fa-codepen fullwidth" style="font-size: 45px; color: ivory; padding-right: 25px"></i>
+            <h1 style='color:white; padding-right: 25px;'>Ryan Jamison</h1>
 
                 <ul class="navbar-nav">
                   <li class="nav-item">
                     <a class="nav-link" href="index.html">About Me</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="contact.html">Resume</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -25,7 +27,7 @@
               
               </nav>
 
-              <div class="container">
+              <div class="container" style="min-height: 100%; position:relative;">
                 <div class="row">
                   <div class="col-sm-12">
                     <h1>About Me</h1>
@@ -33,21 +35,40 @@
                 </div>
 
                 <!--Row 2-->
-                <div class="row">
+                <div class="row" style=" font-family:Georgia, 'Times New Roman', Times, serif; font-style:normal">
                   <div class="col-sm-6">
-                    <img src="C:\Users\ryanj\Basic-Portfolio\assets\images\IMG-1099.jpg" class="img-thumbnail">
+                    <img src="C:\Users\ryanj\Basic-Portfolio\assets\images\IMG-1099.jpg" class="img-thumbnail" style="width: 65%; background: navy">
+                    
+                    <a href="https://www.linkedin.com/in/ryan-jamison-26493167/"><i style="font-size: 30px" class="fab fa-linkedin"> </i></a>
+                    <a href="https://github.com/rdj215"><i style="font-size: 30px" class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/rdj215/"><i style="font-size: 30px" class="fab fa-instagram"></i></a>
                   </div>
-                  <div class="col-sm-6">
-                      <p class="text-justify">Hello, My name is Ryan Jamison, I was born and raised in Philadelphia, PA. I'm currently learning how to program which is alot harder than I expected it to be, however I'm excited to see how I devlope my skills over the next 12 weeks.</p>
-                      <p class="text-justify">My goal is to one day build my own app that will help make a difference in people lives. Attending coding bootcamp is the start of this goal, and based on my current skill level I have a long way to go. </p>
-                
-                      <p class="text-justify">In my spare time I enjoy reading, working out, and spending time with family. I love to watch action, horror, and sci-fi movies when i get a chance to watch television which isn't often these days.  </p>
+                  <div class="col-sm-6" style="text-shadow: blue">
+                      <p class="text-justify">Greetings! My name is Ryan Jamison and I am currently searching for a technical position that will allow me to build fluid full stack web applications while continuing to learn and develop my craft. I recently graduated from the University of Pennsylvania's Immersive Full Stack Web Developer Bootcamp and have worked with some of the latest technologies including JavaScript, CSS, HTML, Node.js, React.js, MySQL & MySQL Workbench, MongoDB & Mongoose, Git, Visual Studio, and Bootstrap.   </p>
+                      <p class="text-justify"> I own a  cleaning business which I started at the age of 20 which has taught me many valuable lessons that have transcended beyond being a business owner. Being an entrepreneur has taught me how to effectively communicate, build relationships, become risk averse, and to be a continual learner.</p>
+                      <p class="text-justify"> In addition to running a business I am active in local politics serving as a Committee Person in the 50th ward (highest voting ward in the city of Philadelphia) and a member of several non-profits. This allows me to engage with a diverse group of individuals including elected officials, stakeholders, and residents from across the city to help create tangible change in the city.  </p>
+                      <p style="margin-bottom: 15px" class="text-justify"> I'm confident my unique work and personal experiences along with my technical skills would make me an asset to your team. In my spare time I enjoy reading, working out, and spending time with family. I love to watch action and sci-fi movies when I get a chance to watch television which are rare these days.  </p>
+                      <br>
+                      <br>
+                      <br>
                 
                   </div>
                 </div>
-
-              </div>
-                        
-                     
+                
+                <style>
+                    #footer {
+                      position: fixed;
+                      left: 0;
+                      bottom: 0;
+                      width: 100%;
+                      background-color:black;
+                      color: white;
+                      align-content:space-between;
+                    }
+                    </style>
+                    
+                    <div class="navbar navbar-expand-sm bg-dark" id="footer">
+                       <p>Created By Ryan Jamison. All Rights Reserved 2019</p>
+                    </div>
 </body>
 </html>
